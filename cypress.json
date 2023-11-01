@@ -1,0 +1,13 @@
+{
+    "projectId": "kqxkd3",
+    "env": {
+        "REACT_APP_GCP_TOKEN":"AIzaSyC5zornGzxXH5tuw2weNLCJyHfQV7bSobE",
+        "REACT_APP_CLOUD_NAME":"opentechglobal",
+        "REACT_APP_UPLOAD_PRESET":"bmum6xar",
+        "REACT_APP_CLOUDINARY_FILES_FOLDER":"CustomersDocuments",
+        "REACT_APP_HOST":"https://app.rahisi.co",
+        "GENERATE_SOURCEMAP":"false",
+        "REACT_APP_PUBLIC_VAPID_KEY":"BOj6o6wkbaYdeBzpAZHI3sbxkhWWr-0BWYX4ktK4kMaBN0RfNXkUDkhZyBwIUIGsaGs07X-NyexrnfbF0CsJKsc"
+    }
+  
+}

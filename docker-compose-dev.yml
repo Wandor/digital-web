@@ -1,0 +1,23 @@
+version: "3.6"
+
+services:
+  dfa_web:
+    container_name: digital-field-web
+    image: opentechdock1/dfa_client
+    ports:
+      - 80:80
+    networks:
+      - web
+    link:
+      - dfa_api
+
+  dfa_api:
+    container_name: digital-field-api
+    image: opentechdock1/dfa_api
+    ports:
+      - 8000:8000
+  
+# Test
+networks:
+  web:
+    external: true
